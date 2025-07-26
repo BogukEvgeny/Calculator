@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+    
+}
+
+body{
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.screen {
+    font-size: 1.8rem;
+    padding-top: 0.1rem;
+    height: 2.4rem;
+    width: 20rem;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    background-color: rgb(153, 152, 152);
+    border-radius: 0.2rem;
+    overflow: auto; 
+}
+
+.screen span{
+    font-size: 2rem;
+    position: relative;
+}
+
+button {
+    cursor: pointer;
+}
+
+.equall,
+.addition,
+.subtraction,
+.multiply,
+.divided {
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0.2rem;
+    border: 0;
+    background-color: orange;    
+}
+
+.seven,
+.eight,
+.nine,
+.four,
+.five,
+.six,
+.one,
+.two,
+.three,
+.changeSign,
+.zero,
+.operand
+{
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    padding: 0;
+    border: 0;
+    background-color: rgb(175, 175, 175);    
+}
+
+.memoryClear,
+.memoryPlus,
+.memoryMinus,
+.memory,
+.factorial,
+.squareRoot,
+.square,
+.persent,
+.cubeRoot,
+.cube,
+.pi,
+.root,
+.power,
+.exponenta,
+.oneDividedX,
+.tenPowerX
+{
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    padding: 0;
+    border: 0;
+    background-color: rgb(119, 119, 119);    
+}
+
+.clear {
+    height: 2.3rem;
+    width: 5.2rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    padding: 0;
+    border: 0;
+    background-color: rgb(119, 119, 119);
+}
